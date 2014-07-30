@@ -1,3 +1,7 @@
+---
+layout: default
+title: 我的Blog
+---
 <!DOCTYPE html>
 <html>
 
@@ -29,7 +33,7 @@
     </div>
 
     <!-- MAIN CONTENT -->
-     
+
     <div id="main_content_wrap" class="outer">
 <div id="main" style="height:400px"></div>
       <script type="text/javascript">
@@ -84,11 +88,8 @@
         );
         
     </script>
-      <section id="main_content" class="inner">
-   ---
-layout: default
-title: 我的Blog
----
+     
+
 <h2>{{ page.title }}</h2>
 <p>最新文章</p>
 <ul>
@@ -96,11 +97,11 @@ title: 我的Blog
 <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul> 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>
+$ hello world 
+
 </code></pre>
-      </section>
+    
     </div>
 
     <!-- FOOTER  -->
